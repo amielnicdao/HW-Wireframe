@@ -11,7 +11,6 @@ body {
     font-size: 18px;
     margin-right: -275px;
     margin-left: 200px
-
 }
 
 header {
@@ -31,34 +30,49 @@ nav {
 #container {
     overflow: auto; 
 }
+
 section {
     background-color: #ebebeb;
     width: 495px;
     float: left;
+    height: 250px;
+    padding: 20px;   
 }
 
 article {
     color: #ebebeb;
     background-color: #777;
-    overflow: auto;
-    
+    height: 200px;  
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .heading {
     background-color: #ebebeb;
-    color: #777;   
+    color: #777; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;   
 }
 
 p {
     background-color: #ebebeb;
-    color: #777;  
+    color: #777; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;  
 }
+
 aside {
     background-color: #ebebeb;  
-    width: 435px;
+    width: 415px;
     float: left;
-    height: 137px;
+    height: 250px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 20px;   
 }
 
 footer {
