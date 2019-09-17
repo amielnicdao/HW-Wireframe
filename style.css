@@ -35,9 +35,8 @@ section {
     background-color: #ebebeb;
     width: 495px;
     float: left;
-    height: 285px;
-    padding: 10px;   
-/*if I put padding 20px, it adds a scroll bar, how do i get rid of the scroll bar?*/
+    height: 301px;
+    padding: 20px;   
 }
 
 article {
@@ -47,8 +46,7 @@ article {
     margin-left: 1px;
     margin-right: 1px;
     margin-top: 20px;
-    padding: 20px;
-   
+    padding: 20px; 
 }
 
 .heading {
@@ -71,15 +69,14 @@ aside {
     background-color: #ebebeb;  
     width: 415px;
     float: left;
-    height:285px;
-    margin-bottom: 10px;
+    height:301px;
+    margin-bottom: 20px;
     margin-left: 20px;
-    padding: 30px;   
+    padding: 40px;   
 }
 
 footer {
     background-color: #ebebeb;
     padding: 20px;
     clear: both;
-/*margin-top won't work but it worked for nav (margin-bottom). Why?*/
 }
